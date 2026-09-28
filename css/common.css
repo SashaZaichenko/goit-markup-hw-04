@@ -164,10 +164,10 @@ button {
   border-radius: 4px;
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms ease-in-out;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-  transition: background-color 250ms ease-in-out;
 }

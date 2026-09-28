@@ -41,9 +41,6 @@ section {
   padding: 120px 0;
 }
 
-.section-title {
-  padding-bottom: 72px;
-}
 /* Base styles */
 
 .container {
@@ -96,7 +93,32 @@ section {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+.section-title {
+  padding-bottom: 72px;
+}
 
+.socials-icon {
+  color: white;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  background: #4d5ae5;
+  transform: translateY(100%);
+  width: 100%;
+  transition: transform 250ms ease-in-out;
+}
+.overlay-text {
+  color: #f4f4fd;
+  padding: 40px 32px;
+  width: 360px;
+  height: 300px;
+  min-height: 240px;
+  max-height: 300px;
+}
 /* Contacts styles */
 
 .contacts {

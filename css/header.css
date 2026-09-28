@@ -16,13 +16,25 @@
 }
 .main-nav-link {
   display: block;
-
+  position: relative;
   padding: 24px 0;
   font-weight: 500;
 }
-.main-nav-link:hover {
+.main-nav-link:hover,
+.main-nav-link:focus,
+.main-nav-link.current::after {
   color: #404bbf;
 }
-.main-nav-link:focus {
-  color: #404bbf;
+
+.main-nav-link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  height: 4px;
+  background: #404bbf;
 }

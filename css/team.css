@@ -55,9 +55,9 @@
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 40px;
+  transition: background-color 250ms ease-in-out;
 }
 .team-socials:hover,
 .team-socials:focus {
   background-color: #404bbf;
-  transition: 250ms ease-in-out;
 }

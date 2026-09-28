@@ -125,7 +125,6 @@ section {
   margin-left: auto;
 }
 .contacts-list {
-  transition: 250ms ease-in-out;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -134,16 +133,18 @@ section {
 }
 .contacts-link {
   display: block;
-
+  transition: color 250ms ease-in-out;
   padding-top: 24px;
   padding-bottom: 24px;
 
   text-decoration: none;
   color: #434455;
 }
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
+
 .contacts-link:focus {
   color: #404bbf;
 }
@@ -161,11 +162,12 @@ button {
   color: #fff;
   padding: 16px 32px;
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: 250ms ease-in-out;
 }
 
-.hero-button:hover .hero-button:focus {
-  background: #404bbf;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+  transition: background-color 250ms ease-in-out;
 }

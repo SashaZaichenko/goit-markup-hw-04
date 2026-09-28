@@ -19,11 +19,11 @@
   position: relative;
   padding: 24px 0;
   font-weight: 500;
-  transition: 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
 }
 .main-nav-link:hover,
 .main-nav-link:focus,
-.main-nav-link.current::after {
+.main-nav-link.current {
   color: #404bbf;
 }
 
@@ -37,7 +37,4 @@
   width: 100%;
   border-radius: 2px;
   height: 4px;
-}
-.main-nav-link.current {
-  color: #404bbf;
 }

@@ -30,7 +30,8 @@
   border-radius: 20px;
   width: 40px;
   height: 40px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  transition: background-color 250ms ease-in-out;
 }
 .footer-social-title {
   margin-top: 0;
@@ -46,6 +47,5 @@
 }
 .footer-socials:hover,
 .footer-socials:focus {
-  background: #31d0aa;
-  transition: 250ms ease-in-out;
+  background-color: #31d0aa;
 }

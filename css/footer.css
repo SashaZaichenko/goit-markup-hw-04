@@ -6,7 +6,7 @@
 .footer .container {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: flex-start;
   gap: 0;
 }
 
@@ -47,4 +47,5 @@
 .footer-socials:hover,
 .footer-socials:focus {
   background: #31d0aa;
+  transition: 250ms ease-in-out;
 }

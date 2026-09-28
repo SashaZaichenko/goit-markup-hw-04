@@ -59,4 +59,5 @@
 .team-socials:hover,
 .team-socials:focus {
   background-color: #404bbf;
+  transition: 250ms ease-in-out;
 }
